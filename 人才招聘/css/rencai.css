@@ -1,0 +1,428 @@
+body,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,p{
+margin: 0;padding: 0;list-style:none;
+font-family:"微软雅黑,Arial";
+}
+a{
+	text-decoration: none;
+}
+/*顶部*/
+.top{
+	width: 960px;
+	height: 128px;
+	margin: 0 auto;
+}
+.logo{
+	width: 170px;
+	height: 51px;
+	float: left;
+	padding-top:29px;
+}
+.daohang {
+	width: 521px;
+	height: 119px;
+	float: right;
+	list-style: none;
+	margin: 0 0 9px 25px;
+}
+.li1{
+	width: 152px;
+	height: 39px;
+	float: left;
+	line-height: 39px;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 18px;
+	font-size: 15px;
+	color: #333;
+	border: 1px solid #d7d7d7;
+	border-radius: 30px;
+}
+.li1 a{
+	color: #333;
+}
+.li2{
+	width: 96px;
+	height: 39px;
+	float: left;
+	line-height: 39px;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 18px;
+	font-size: 15px;
+	color: #333;
+	/*border: 1px solid #555;
+	border-radius: 30px;*/
+}
+.li2 a{
+	color: #555;
+}
+.li2 a:hover{
+	color: red;
+}
+.li3{
+	width: 96px;
+	height: 39px;
+	float: left;
+	line-height: 39px;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 18px;
+	font-size: 15px;
+	color: #333;
+	/*border: 1px solid #555;
+	border-radius: 30px;*/
+}
+.li3 a{
+	color: #555;
+}
+.li3 a:hover{
+	color: red;
+}
+.li4{
+	width: 96px;
+	height: 39px;
+	float: left;
+	line-height: 39px;
+	margin-top: 40px;
+	margin-left: 18px;
+	font-size: 15px;
+	color: #333;
+	position: relative;
+}
+.li4a{
+	text-align: center;
+}
+.li4 a{
+	color: #555;
+}
+.li4 a:hover{
+	color: red;
+}
+.xl{
+	width: 130px;
+	height: 165px;
+	border-top: 2px solid red;
+	position: absolute;
+	left: -18px;
+	display: none;
+}
+.xl a{
+	padding-left: 20px;
+
+}
+.l1{
+	width: 130px;
+	height: 28px;
+	margin-top: 5px;
+	line-height: 28px;
+	font-size: 13px;
+	border-bottom: 1px solid #d7d7d7;
+}
+.l2{
+	width: 130px;
+	height: 28px;
+	margin-top: 5px;
+	line-height: 28px;
+	font-size: 13px;
+}
+.xl a:hover{
+	color:red;
+}
+/*banner部分*/
+.bannerbox{
+	width: 1520px;
+	height: 492px;
+	background: #fff;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.banner{
+	width: 1520px;
+	height: 492px;
+}
+.banner img{
+	width: 1520px;
+	height: 492px;
+}
+.left{
+	width: 36px;
+	height: 36px;
+	font-size: 36px;
+	font-weight: bold;
+	position: absolute;
+	left: 100px;
+	top:45%;
+}
+.right{
+	width: 36px;
+	height: 36px;
+	font-size: 36px;
+	font-weight: bold;
+	position: absolute;
+	right: 100px;
+	top:45%;
+}
+/*内容部分*/
+.center{
+	width: 940px;
+	height: 138px;
+	margin: 80px auto 20px auto;
+}
+.ct1{
+	width: 100%;
+	height: 50px;
+	font-size:30px;
+	color: #000;
+	margin-top: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.ct2{
+	width: 100%;
+	height: 80px;
+	font-size: 15px;
+	color: #666;
+	line-height: 42px;
+	text-align: center;
+}
+
+.tupian{
+	width: 960px;
+	height: 269px;
+	margin: 0 auto;
+}
+.tp1{
+	width: 300px;
+	height: 269px;
+	float: left;
+	border-bottom:1px solid red ;
+	margin-left: 20px;
+}
+.tp1 img{
+	width: 300px;
+	height: 225px;
+}
+.tp11{
+	width: 300px;
+	height: 18px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: inherit;
+	padding: 9px 0;
+	line-height: 18px;
+	text-align: center;
+}
+.tp1 a{
+	color: black;
+}
+.center2{
+	width: 1520px;
+	height: 844px;
+	margin: 0 auto;
+	background:url(../img/bg.jpg) no-repeat;
+}
+.center2-2{
+	width: 940px;
+	height: 138px;
+	padding-top: 60px;
+	margin: 80px auto 60px auto;
+}
+.center2-3{
+	width: 960px;
+	height: 72px;
+	background: red;
+	margin: 0 auto;
+}
+.c1{
+	width: 480px;
+	height: 72px;
+	background: #fff;
+	float: left;
+	line-height: 72px;
+	border-top: 2px solid #0084ce;
+	position: relative;
+}
+.c1 p{
+	color: #0084ce;
+	font-size: 1.6em;
+	text-align: center;
+}
+.c2{
+	width: 480px;
+	height: 72px;
+	background: #47BB38;
+	float: left;
+	line-height: 72px;
+	position: relative;
+}
+.c2 p{
+	font-size: 1.6em;
+	color: #0084ce;
+	text-align: center;
+}
+.c1-1{
+	width: 959px;
+	height: 370px;
+	background: white;
+	position: absolute;
+	display: none;
+}
+.c1-1 li{
+	width: 460px;
+	height: 100px;
+	float: left;
+	margin: 24px 0 8px 16px;
+}
+.c11{
+	width: 460px;
+	height: 18px;
+	font-size: 1.3rem;
+}
+.c111{
+	width: 73px;
+	height: 73px;
+	float: left;
+	margin-right: 20px;
+	overflow: hidden;
+}
+.c112{
+	width: 367px;
+	height: 100px;
+	float: left;
+}	
+.c1121{
+	width: 367px;
+	height: 18px;
+	font-size: 15px;
+	line-height: 18px;
+	color: black;
+	font-weight: bold;
+	margin: 9px 0;
+}
+.c1122{
+	width: 357px;
+	height: 36px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #252525;
+}
+.c2-2{
+	width: 959px;
+	height: 388px;
+	background: white;
+	position: absolute;
+	left: -480px;
+	position: relative;
+}
+.c2-2 li{
+	width: 300px;
+	height: 100px;
+	float: left;
+	margin: 24px 0 0 16px;
+}
+.c2-21{
+	width: 300px;
+	height: 18px;
+	font-size: 15px;
+	line-height: 18px;
+	color: black;
+	font-weight: bold;
+	margin: 9px 0;
+}
+.c2-22{
+	width: 300px;
+	height: 36px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #252525;
+}
+.c2-3{
+	width: 616px;
+	height: 117px;
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+}
+.center3{
+	width: 940px;
+	height: 100px;
+	margin: 80px auto 20px auto;
+}
+.ct3{
+	width: 100%;
+	height: 40px;
+	font-size: 15px;
+	color: #666;
+	line-height: 40px;
+	text-align: center;
+}
+/*版权信息*/
+.banquan{
+	width: 1520px;
+	height: 257px;
+	background: #1B374D;
+	margin: 80px auto 0 auto;
+}
+.bq{
+	width: 960px;
+	height: 167px;
+	float:left;
+	margin-top: 45px;
+	margin-left: 280px;
+}
+.bq1{
+	width: 300px;
+	height: 91px;
+	margin-left: 20px;
+	float: left;
+}
+.bq2{
+	width: 300px;
+	height: 95px;
+	margin-left: 20px;
+	float: left;
+}
+.bq3{
+	width: 300px;
+	height: 167px;
+	margin-left: 20px;
+	float: left;
+}
+.bq2-1{
+	width: 300px;
+	height: 35px;
+	color: #b6bfc7;
+	font-size: 1.4em;
+	line-height: 35px;
+	margin-top: 15px;
+}
+.bq2-2{
+	width: 300px;
+	height: 18px;
+	font-size: 13px;
+	line-height: 18px;
+	color: #6f7e8a;
+	margin: 0 0 18px 0;
+}
+.bq3-2{
+	width: 300px;
+	height: 18px;
+	font-size: 13px;
+	line-height: 18px;
+	color: #6f7e8a;
+	margin: 0 0 18px 0;
+}
+.bq3-3{
+	width: 300px;
+	height: 18px;
+	font-size: 13px;
+	line-height: 18px;
+	margin: 0 0 18px 0;
+}
+.bq3-3 a{
+	color: #b6bfc7;
+}
+.bq3-3 a:hover{
+	text-decoration:underline;	
+}
